@@ -1,0 +1,25 @@
+
+.static-box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: static;
+}
+
+.absolute-box{
+    height: 100px;
+    width: 100px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+.relative-box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: chartreuse;
+}
