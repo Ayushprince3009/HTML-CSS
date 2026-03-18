@@ -1,0 +1,50 @@
+*{
+    height: 0px;
+    width: 0px;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+
+.container{
+    position: relative;
+}
+
+.box{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: orange;
+    animation : changeColor 2s linear 3s 10 normal;
+    position: absolute;
+}
+
+@keyframes changeColor{
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+    }
+    25%{
+        background-color: green;
+        top: 10px;
+        left: 500px;
+    }
+    50%{
+        background-color: red;
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        background-color: rgb(153, 0, 255);
+        top: 500px;
+        left: 10px;
+    }
+    100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+    }
+}
+
+
