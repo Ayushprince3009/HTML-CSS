@@ -20,12 +20,12 @@ body{
     color: white;
     width: 70%;
     border-radius: 5PX;
-    overflow: hidden;  // ye use krne se div me jo nhi aa payega wo hide ho jayega 
+    overflow: hidden;  //ye use krne se div me jo nhi aa payega wo hide ho jayega 
     white-space: nowrap;
 }
 
 P{
-    margin-left: 100%;
+    
     animation: moving 5s infinite ;
 }
 
