@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;;
+    display: flex;
+    justify-content: center;
+    padding-top: 20PX;
+
+}
+
+.container{
+    background-color: rgb(255,255,255,0.05);
+    border: 1px solid rgb(255,255,255,0.129);
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    border-radius: 5PX;
+    overflow: hidden;  // ye use krne se div me jo nhi aa payega wo hide ho jayega 
+    white-space: nowrap;
+}
+
+P{
+    margin-left: 100%;
+    animation: moving 5s infinite ;
+}
+
+@keyframes moving{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
